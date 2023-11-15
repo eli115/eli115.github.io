@@ -1,114 +1,60 @@
 <!doctype html>
+<html lang="en" class="h-100">
+  <head>
+   
+    <title>Elijah Ward's Portfolio Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico?">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://getbootstrap.com/docs/5.1/examples/cover/cover.css" rel="stylesheet">
 
-<html>
-    <head>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-        <title>Elijah Ward's Portfolio Page</title>
-        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico?">
-        <link rel="stylesheet" href="css/custom.css">
-        <script src="js/bootstrap.bundle.min.js"></script>
-    </head>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
 
-    <body class="bg-light">
+    </style>
 
-      <div class="card m-2 bg-secondary text-light" style="width: 20rem;">
-          <img src="images/profile.jpeg" class="card-img-top" alt="My profile picture">
-          <div class="card-body">
-            <h5 class="card-title">About Me</h5>
-            <p class="card-text">Human currently looking for a Bachelor’s of Science in CS. I enjoy playing (and making) video games, hard(ish) coding challenges, being around planes (when possible), and being around animals. I would love to learn more about making video games or websites.</p>
-          </div>
-      </div>
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
 
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                <strong>Experience</strong>
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-              <div class="accordion-body">
-                <p>
-                  I worked a lot in high school on various coding projects, including making a virtual computer from basic logic gates. Link: <a href="https://nand2tetris.org" target="_blank">https://www.nand2tetris.org</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                <strong>Skills</strong>
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                <p>
-                  I have a deep understanding of how computers work on a hardware level, as well as a basic understanding of how software interacts with hardware.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                <strong>Projects</strong> 
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-              <div class="accordion-body">
-                <p>
-                  This website! I'll probably start some others soon, but for now this is it.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-              <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                      <strong>Source Code</strong>
-                  </button>
-              </h2>
-              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                      <p>
-                          Source code for this website can be found <a href="https://github.com/eli115/eli115.github.io" target="_blank"">here</a>.
-                      </p>
-                  </div>
-              </div>
-          </div>
-        </div>
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  
+  <header class="mb-auto">
+    <div>
+      
+      <h3 class="float-md-start mb-0">Elijah Ward's Portfolio page</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="information.html">Information</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main class="px-3">
+    <h1>Elijah Ward</h1>
+    <p class="lead">Human currently looking for a Bachelor’s of Science in CS. I enjoy playing (and making) video games, hard(ish) coding challenges, being around planes (when possible), and being around animals. I would love to learn more about making video games or websites.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+    </p>
+  </main>
 
-      <div>
-          <h2>Education</h2>
-          <p>
-              Took numerous CS classes in high school where I did the project building a virtual computer. Also, took and completed a virtual Python course on Codecademy.
-          </p>
-      </div>
+  <footer class="mt-auto text-white-50">
+    <p>Footer text.</p>
+  </footer>
+</div>
 
-      <div>
-          <h2>Awards</h2>
-          <p>
-              Currently, only a Special Mention for Computer Science my senior year in high school. I would love to have more though!
-          </p>
-      </div>
-
-      <div>
-          <h2>Social Media</h2>
-          <p>
-              <a href="https://github.com/eli115" target="_blank"><img src="images/gitlogo.png" width="30px"/></a>
-              <a href="https://www.linkedin.com/in/elijah-ward-36435a269/" target="_blank"><img src="images/linkedlogo.png" width="30px"/></a>
-          </p>
-      </div>
-
-      <div>
-          <h2>Contact Me</h2>
-          <a href="mailto:elimward05@gmail.com" target="_blank"><img src="images/gmaillogo.png" width="30px" /></a>
-      </div>
-
-      <div>
-          <a target="_blank" href="https://icons8.com/icon/CY3buSpEhV0w/tesseract">Tesseract</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-      </div>
-
-    </body>
+  </body>
 </html>
